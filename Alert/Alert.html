@@ -2,23 +2,34 @@
 <html lang="en">
 
 <head>
+  <!--Meta starts-->
   <meta charset="UTF-8">
   <meta name="description" content="Alert Example">
   <meta name="keywords" content="Alert">
   <meta name="author" content="Tanvir Rahman">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!--Meta ends-->
+
   <title>Alert</title>
+
+  <!--Stylesheet starts-->
   <link href="https://cdn.jsdelivr.net/npm/tailwindcss/dist/tailwind.min.css" rel="stylesheet">
   <link rel="stylesheet" href="./Alert.css">
+  <!--Stylesheet ends-->
 </head>
 
 <body>
+  <!-- Card view -->
   <div class="max-w-sm rounded shadow-lg card">
+
     <!-- Error Starts -->
     <div class="bg-red-lightest border border-red-light text-red-dark px-4 py-3 rounded relative spacing" role="alert">
+
       <strong class="font-bold">Holy smokes!</strong>
       <span class="block sm:inline">Something seriously bad happened.</span>
+
+      <!-- Button starts -->
       <span class="absolute pin-t pin-b pin-r px-4 py-3">
         <svg class="fill-current h-6 w-6 text-red" role="button" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
           <title>Close</title>
@@ -26,13 +37,17 @@
           />
         </svg>
       </span>
+      <!-- Button ends -->
     </div>
     <!-- Error Ends -->
 
+
     <!-- Info Starts -->
     <div class="bg-blue-lightest border border border-blue text-blue-dark px-4 py-3 relative spacing" role="alert">
+
       <p class="font-bold">Informational message</p>
 
+      <!-- Button starts -->
       <span class="absolute pin-t pin-b pin-r px-4 py-3">
         <svg class="fill-current h-6 w-6 text-red" role="button" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
           <title>Close</title>
@@ -40,13 +55,17 @@
           />
         </svg>
       </span>
+      <!-- Button endss -->
     </div>
     <!-- Info Ends -->
 
+
     <!-- Warning Starts -->
     <div class="bg-orange-lightest border-l-4 border-orange text-orange-dark p-4 relative spacing" role="alert">
+
       <p class="font-bold">Be Warned</p>
 
+      <!-- Button starts -->
       <span class="absolute pin-t pin-b pin-r px-4 py-3">
         <svg class="fill-current h-6 w-6 text-red" role="button" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
           <title>Close</title>
@@ -54,6 +73,7 @@
           />
         </svg>
       </span>
+      <!-- Button endss -->
     </div>
     <!-- Warning Ends -->
   </div>
